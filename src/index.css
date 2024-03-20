@@ -44,4 +44,12 @@
     --baseFour: hsl(0, 3%, 13%);
     --accent1: hsl(6, 100%, 80%);
   }
+
+  html {
+    @apply bg-baseFour scroll-smooth text-baseTwo transition-colors duration-300;
+  }
+
+  body {
+    @apply max-w-[1920px] mx-auto transition-all duration-200;
+  }
 }
