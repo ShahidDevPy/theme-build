@@ -20,7 +20,6 @@ const ThemeSwitcher = () => {
 
     const handleThemeChange = (themeName: string) => {
         setSelectedTheme(themeName);
-        console.log(themeName);
     };
 
     useEffect(() => {
